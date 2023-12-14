@@ -12,7 +12,7 @@ function insert_Row() {
 	const td2= document.createElement("td");
 	// cell_NO =++cell_NO;
 	td1.innerText= "New Cell1";
-	td2.innerText= "New Cell1";
+	td2.innerText= "New Cell2";
 
 	tr.append(td1,td2);
 	tbody.insertBefore(tr, first_child);
